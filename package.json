@@ -1,5 +1,5 @@
 {
-  "name": "clerk-nextjs-app-quickstart",
+  "name": "clerk-firebase-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,10 +9,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nextjs": "^7.2.2",
-    "next": "^16.0.7",
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "@clerk/nextjs": "^5.2.10",
+    "firebase": "^10.12.4",
+    "next": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
