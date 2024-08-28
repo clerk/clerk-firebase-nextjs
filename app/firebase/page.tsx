@@ -25,7 +25,6 @@ const db = getFirestore(app);
 const auth = getAuth(app);
 
 // Remove this if you do not have Firestore set up
-// for your Firebase app
 const getFirestoreData = async () => {
   const docRef = doc(db, 'example', 'example-document');
   const docSnap = await getDoc(docRef);
@@ -38,20 +37,25 @@ const getFirestoreData = async () => {
 };
 
 export default function FirebaseUI() {
+  // Use `useAuth()` to access the `getToken()` method
   const { getToken, userId } = useAuth();
 
-  // Handle if the user is not signed in
+  // Handle if the user is not signed in.
   // You could display content, or redirect them to a sign-in page
   if (!userId) {
     return <p>You need to sign in with Clerk to access this page.</p>;
   }
 
+  // Create a function to sign into Firebase with the Clerk token
   const signIntoFirebaseWithClerk = async () => {
+    // Get the Firebase token from Clerk.
     const token = await getToken({ template: 'integration_firebase' });
 
+    // Sign into Firebase with the Clerk token
     const userCredentials = await signInWithCustomToken(auth, token || '');
+
     // The userCredentials.user object can call the methods of
-    // the Firebase platform as an authenticated user.
+    // the Firebase platform as an authenticated user
     console.log('User:', userCredentials.user);
   };
 
