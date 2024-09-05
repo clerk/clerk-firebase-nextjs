@@ -9,23 +9,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.2.10",
-    "firebase": "^10.12.4",
-    "next": "^14.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@clerk/nextjs": "^5.4.1",
+    "firebase": "^10.13.1",
+    "next": "^14.2.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@tailwindcss/postcss": "^4.1.16",
-    "@types/node": "^24",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
-    "eslint": "^9.38.0",
-    "eslint-config-next": "16.0.0",
-    "postcss": "^8",
-    "tailwindcss": "^4.1.16",
-    "typescript": "^5"
-  },
-  "packageManager": "pnpm@10.33.4+sha512.1c67b3b359b2d408119ba1ed289f34b8fc3c6873412bec6fd264fbdc82489e510fcbecb9ce9d22dae7f3b76269d8441046014bdca53b9979cd7a561ad631b800"
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "14.2.8",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
 }
