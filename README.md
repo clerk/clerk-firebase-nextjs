@@ -59,11 +59,11 @@ To run the example locally, you need to:
 
 3. Set the required Clerk environment variables as shown in [the example `env.local.example` file](./.env.local.example).
 
-4. `npm install` the required dependencies.
+4. `pnpm install` the required dependencies.
 
 5. Follow [the Clerk + Firebase integration guide](https://clerk.com/docs/integrations/databases/firebase) to set up your Firebase database.
 
-6. `npm run dev` to launch the development server.
+6. `pnpm run dev` to launch the development server.
 
 ## Learn more
 
