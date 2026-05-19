@@ -50,8 +50,8 @@ git clone https://github.com/clerk/clerk-nextjs-app-quickstart
 
 To run the example locally, you need to:
 
-1. `npm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
-1. `npm run dev` to launch the development server.
+1. `pnpm install` the required dependencies. You may need to use `--force` to handle dependency issues from the React release candidate.
+1. `pnpm run dev` to launch the development server.
 1. Select the "Sign in" button in the top-right corner of the app's homepage.
 
 ## Learn more
