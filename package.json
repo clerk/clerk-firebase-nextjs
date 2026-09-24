@@ -9,22 +9,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@clerk/nextjs": "^5.4.1",
-    "firebase": "^10.13.1",
-    "next": "^14.2.8",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@clerk/nextjs": "^7.9.6",
+    "firebase": "^12.19.0",
+    "next": "^16.3.6",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "14.2.8",
-    "postcss": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest"
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/node": "^24",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^16.3.6",
+    "postcss": "^8",
+    "tailwindcss": "^4.1.16",
+    "typescript": "^5"
   },
   "packageManager": "pnpm@10.33.4+sha512.1c67b3b359b2d408119ba1ed289f34b8fc3c6873412bec6fd264fbdc82489e510fcbecb9ce9d22dae7f3b76269d8441046014bdca53b9979cd7a561ad631b800"
 }
