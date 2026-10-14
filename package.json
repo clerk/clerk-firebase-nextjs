@@ -16,6 +16,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "4.3.0",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
